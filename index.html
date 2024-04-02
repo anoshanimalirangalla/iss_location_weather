@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISS Tracker</title>
+</head>
+<body>
+  <center>
+  <h1><b>ISS Tracker</b></h1>
+  <br>
+    <!-- iss location -->
+    <p>Location of ISS: Latitude {{ lat }}, Longitude {{ lon }}</p>
+    <br>
+    <br>
+    <br>
+    <!-- iss static image -->
+    <img src="static/iss1.jpg" alt="ISS Image" width="350">
+    <br>
+    <br>
+    <br>
+    <!-- display temperature at iss location --> 
+    <p>Temperature at ISS location: {{ temp_c  }}°C</p>
+    <br>
+    <br>
+    <!-- national flag of usa -->
+    <img src="{{ flag_url }}" alt="National Flag" width="200">
+    <br>
+    <p>The Flag of USA</p>
+    <br>
+    <br>
+    <!-- distance between my location and iss -->
+    <p>Distance between my location and ISS: {{ distance }} kilometers</p>
+  </center>
+</body>
+</html>
