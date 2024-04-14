@@ -1,4 +1,4 @@
- # ISS location and weather update the flask-powered site
+ # ISS location and weather updating Flask web application
 
 ## Objective : 
 Fetch data from multiple APIs to know the whereabouts of the ISS and record weather updates. 
